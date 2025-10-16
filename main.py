@@ -7,13 +7,14 @@ def calculate_panels(panel_width: int, panel_height: int,
                     roof_width: int, roof_height: int) -> int:
     
     if panel_width > roof_width or panel_height > roof_height:
-        return 0
+        cantidad_paneles=0
     elif panel_width >roof_height or panel_height > roof_width:
-        return 0
+        cantidad_paneles=0
     else:
         area_panel = panel_width * panel_height
         area_roof = roof_width * roof_height
-        return area_roof // area_panel
+        cantidad_paneles=area_roof // area_panel
+    return cantidad_paneles
 
 
 
