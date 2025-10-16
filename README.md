@@ -8,9 +8,9 @@ El objetivo de este ejercicio es poder entender tus habilidades como programador
 
 El problema a resolver consiste en encontrar la máxima cantidad de rectángulos de dimensiones "a" y "b" (paneles solares) que caben dentro de un rectángulo de dimensiones "x" e "y" (techo).
 
-## Solucion
+## Soluciones
 para resolver este problema se considerarón 2 opciones 
-la primera opcion  al ser dos figuras rectangulares al comparar las areas directamente es esposible saber cuantos paneles caben en el techo independientemente de la posicion 
+la primera opcion  al ser dos figuras rectangulares al comparar las areas directamente es posible saber cuantos paneles caben en el techo independientemente de la posicion 
 
 la segunda opcion es tratar el techo como una matriz, y recorrerla probando en cada posicion si un panel puede ser colocado en la matriz, si se logra colocar con exito se contabiliza y se continua en la siguiente posicion vacia.
 
@@ -35,8 +35,7 @@ Tu solución debe pasar los siguientes casos de prueba:
 
 ## 📝 Tu Solución
 
-Deja acá el link a tu video explicando tu solución con tus palabras
-
+video explicando la solucion https://www.youtube.com/watch?v=ZWS2KqHGT6U
 ---
 
 ## 💰 Bonus (Opcional)
